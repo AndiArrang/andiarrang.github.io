@@ -1,0 +1,47 @@
+.container {
+  padding-top: 70px;
+  z-index: 1; 
+  box-sizing: border-box;
+}
+.card {
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: inset;
+    
+  }
+  
+  .arab {
+    text-align: right;
+    font-weight: bold;
+  }
+  .terjemah{
+    text-align: left;
+  }
+  .card-body {
+    text-align: center;
+    
+  }
+  .search {
+    flex: auto;
+    display: inline-flex;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    box-shadow: inset 0px 0px 4px rgb(192, 194, 191) ;
+  }
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
