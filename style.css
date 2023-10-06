@@ -9,107 +9,36 @@ body {
     background-color: #f4f4f4;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+.navbar {
+    position: fixed;
+    z-index: 1000;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+#intro {
+    height: 500px;
+    width: 100%;
+    background-image: url('./bc\ portfolio.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: cover; */
 }
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.about {
-    padding: 40px 0;
-}
-
-.about p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-.portfolio {
-    background-color: #fff;
-    padding: 40px 0;
-}
-
-.project {
-    margin-bottom: 40px;
-}
-
-.project img {
-    max-width: 100%;
-}
-
-.project h3 {
-    margin-top: 10px;
-    font-size: 24px;
-}
-
-.project p {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.project a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.contact {
-    padding: 40px 0;
-}
-
-.contact ul {
-    list-style: none;
-}
-
-.contact li {
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
+.intro-content {
+    height: auto;
+    width: 80%;
+    margin: auto;
     text-align: center;
-    padding: 10px 0;
+    color: #f4f4f4;
+    font-weight: bolder;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    header {
-        text-align: center;
-    }
-
-    nav ul {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+.btn-about {
+    color: #f4f4f4;
+    border: 2px solid white;
+    background: transparent;
+    padding: 5px;
+}
+.btn-about:hover{
+    border: 2px solid rgb(199, 9, 9);
+    cursor: pointer;
 }
