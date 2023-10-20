@@ -24,12 +24,18 @@ body {
     background-color: #f4f4f4;
 }
 
+/* navbar --------------------------------------------------*/
 .navbar {
     position: sticky !important;
     z-index: 1000;
 	top: 0;
-	box-shadow: 0 1px 10px rgba(54, 54, 54, 0.18)
+	box-shadow: 0 1px 10px rgba(54, 54, 54, 0.18);
+	font-family: "poppins-regular", sans-serif;
 }
+.nav-item .nav-link {
+	color: orangered;
+}
+
 
 a, a:visited {
 	color: #000000;
@@ -451,7 +457,7 @@ a, a:visited {
 }
 
 .project-list .card img {
-	height: 60%;
+	height: 70%;
 }
 .project-list .card-body .card-title {
 	font-family: "poppins-bold", sans-serif;
@@ -490,7 +496,7 @@ a, a:visited {
 }
 @media only screen and (max-width:768px) {
    .project-list .card img {
-	height: 50%;
+	height: 65%;
    }
    .project-list .card p {
 	line-height: 1rem;
