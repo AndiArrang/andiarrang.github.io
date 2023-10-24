@@ -32,8 +32,9 @@ body {
 	box-shadow: 0 1px 10px rgba(54, 54, 54, 0.18);
 	font-family: "poppins-regular", sans-serif;
 }
-.nav-item .nav-link {
-	color: orangered;
+.nav-item .active {
+	color: orangered !important;
+
 }
 
 
