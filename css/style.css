@@ -479,9 +479,9 @@ a, a:visited {
 
 .card .btn-project {
 	position: absolute; /* Memberi posisi absolut pada tombol */
-    bottom: 10px; /* Jarak dari bawah card */
-    right: 10px; /* Jarak dari kanan card */
-    padding: 10px 20px; /* Atur padding sesuai kebutuhan */
+    bottom: 5px; /* Jarak dari bawah card */
+    right: 5px; /* Jarak dari kanan card */
+    padding: 5px 10px; /* Atur padding sesuai kebutuhan */
     color: orangered;
     cursor: pointer;
 	font-weight: bold;
@@ -492,15 +492,20 @@ a, a:visited {
 		line-height: 1rem;
 	}
 	.project-list .card img {
-		height: 47%;
+		height: 65%;
 	}
+	
 }
 @media only screen and (max-width:768px) {
    .project-list .card img {
 	height: 65%;
    }
+   .project-list .card .card-title {
+	font-size: .9rem;
+	line-height: normal;
+   }
    .project-list .card p {
-	line-height: 1rem;
+	font-size: .7rem;
    }
 }
 @media only screen and (max-width:600px) {
@@ -515,7 +520,116 @@ a, a:visited {
    }
 }
 
+/* footer ===============================*/
+
+.site-footer {
+	padding-top: 10rem;
+	padding-bottom: 1rem;
+    width: 100%;
+}
+
+.contact {
+	width: 90%;
+	margin: auto !important;
+	display: flex;
+	justify-content: center;
+}
+.contact .col-md-3 {
+	margin: 2rem;
+}
+
+.contact .col-md-3 h3 {
+	margin-top: 20px;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+    font-family: "poppins-bold", sans-serif;
+	text-align: center;
+	line-height: 2;
+	color: orangered;
+}
+
+.contact .col-md-3 p {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	text-align: center;
+}
+.contact .icon-address {
+	background-image: url('../assets/location.png');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+.contact .icon-email {
+	background-image: url('../assets/email.png');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+.contact .icon-phone {
+	background-image: url('../assets/phone.png');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+.container-footer {
+	padding-top: 50px;
+	max-width: 650px;
+	margin: auto !important;
+	display: flex;
+	justify-content: center;
+	/* text-align: center; */
+}
+
+.copyright {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1rem;
+	line-height: 1rem;
+	
+}
+.social-icons {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.social-icons li {
+	display: inline-block;
+}
+.social-icons a.instagram .icon-instagram {
+	background-image: url('../assets/instagram.png');
+	background-size: cover;
+	width: 30px !important;
+	height: 30px !important;
+}
+.social-icons a.facebook .icon-facebook {
+	background-image: url('../assets/facebook.png');
+	background-size: cover;
+	width: 30px !important;
+	height: 30px !important;
+}
+.social-icons a.github .icon-github {
+	background-image: url('../assets/github.png');
+	background-size: cover;
+	width: 30px !important;
+	height: 30px !important;
+}
 
 
-
+@media only screen and (max-width:600px) {
+	.contact .col-md-3 h3 {
+		letter-spacing: normal;
+	}
+	.copyright {
+		text-align: center;
+	}
+	.social-icons {
+		margin-top: 20px;
+	}
+}
 
