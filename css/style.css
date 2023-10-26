@@ -142,11 +142,11 @@ a, a:visited {
     width: 100%;
     min-height: 720px;
     position: relative;
-    background-image: url('../assets/bg.jpg');
+    background-image: url('../assets/bg-home.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-size: cover; */
+    background-size: cover;
 }
 .intro-content {
     height: auto;
@@ -174,9 +174,12 @@ a, a:visited {
 
 .btn-about {
     color: #f4f4f4;
-    border: 2px solid white;
+	font-family: "poppins-medium", sans-serif;
+    border: 3px solid rgb(218, 215, 215);
     background: transparent;
-    padding: 5px;
+    padding: 10px;
+	letter-spacing: .25rem;
+	text-transform: uppercase;
 }
 .btn-about:hover{
     border: 2px solid orangered;
